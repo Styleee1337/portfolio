@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Personal Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="A:\ostalo\portfolio\css\style.css" rel = "stylesheet" type ="text/css">
+    <!--Using fonts------------------------------>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section>
+        <!--navigation---->
+        <nav>
+            <!--logo-->
+             <a href="#" class="logo">Matic Horvat</a>
+             <!--menu-->
+                 <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Contact Me</a></li>
+                 </ul> 
+                 <!--Bars----------------->
+                 <div class="toggle"></div>
+                </nav>
+        <!--text here-------------->
+        <div class="text-container">
+            <p>Hello</p>
+            <p>I&#8217;M MATIC HORVAT</p>
+            <p>I am a web developer <br> </p>
+            <button class="hire-btn">Hire me</button>
+            <button class="hire-btn">Download CV</button>
+            <div class="skills">
+                <h1>My skills</h1>
+                <li>
+                    <h3>javascript</h3><span class="bar"><span class="javascript"></span></span> 
+                </li>
+                <li>
+                    <h3>Html</h3><span class="bar"><span class="html"></span></span> 
+                </li>
+                <li>
+                    <h3>Css</h3><span class="bar"><span class="css"></span></span> 
+                </li>
+        </div>
+    </div>
+
+        <!--model-->
+        <img src="" class="model" alt>
+
+
+
+    </section>
+<!---about section----------->
+<div class="about-container">
+    <!--img------------>
+    <img src="imgg.jpg">
+    <!--about text-->
+    <div class="about-text">
+        <p>About me</p>
+        <p>Web developer</p>
+        <p>hello my name is etc</p>
+        <p>i just started</p>
+        <!--Button------------->
+        <button>Hire me</button>
+        <button>Download CV</button>
+        
+    </div>
+
+</div>
+
+
+<!--Services----------------------------------------->
+<div class="services">
+    <!--text---------------------------------------->
+    <div class="services-text">
+    <p>text</p>
+    <p>teext</p>
+    <p>text</p>
+    </div>
+<!--box------------------->
+<div class="box-container">
+    <!--box1------------------>
+    <div class="box-1">
+        <span>1</span>
+        <p class="heading">Web designing</p>
+        <p class="details">Details</p>
+        <button>Read More</button>
+    </div>
+    <!--box2-------------------->
+    <div class="box-2">
+        <span>2</span>
+        <p class="heading">Web Development</p>
+        <p class="details">Details</p>
+        <button>Read More</button>
+    </div>
+    <!--box3------------------------->
+    <div class="box-3">
+        <span>3</span>
+        <p class="heading">Web publishing</p>
+        <p class="details">Details</p>
+        <button>Read More</button>
+    </div>
+
+</div>
+</div>
+
+<!--Contact me---------------->
+<div class="contact-me">
+    <p>If you have a project in mind</p>
+    <button>Contact me</button>
+</div>
+
+<!--Foooter------------------>
+<footer>
+    <p>Text footer here</p>
+    <p>add somethings here</p>
+    <!--Socialna omrežja------------------->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/matic.horvat.35/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/matic.horvat/"><i class="fab fa-instagram"></i></a>
+        <!--<a href="">space for linekdin in future</a>---->
+    </div>
+<!--Copyright--------------------------->
+<p class="copyright">Copyright by Matic Horvat.</p>
+
+</footer>
+<!--Attached social bar at side------------------------>
+<div class="a-social-b">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <!--<a href="">space for linekdin in future</a>---->
+</div>
+<!--Jquery------------------>
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+
+</body>
+</html>
